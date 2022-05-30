@@ -1,46 +1,41 @@
-# Getting Started with Create React App
+# Movies
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+To develop this application was used Reactjs library with typescript template.
 
-## Available Scripts
+The app UI was designed as responsive for mobile and web version. Mobile UI tested with chrome developer tools: iPhone 12 screen.
 
-In the project directory, you can run:
+## Web UI examples
 
-### `npm start`
+![Home page](./readmeImages/webHome.png)
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
+![Details page](./readmeImages/webDetails.png)
 
-The page will reload if you make edits.\
-You will also see any lint errors in the console.
+## Mobile UI examples
 
-### `npm test`
+![Home page](./readmeImages/mobileHome.png)
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+![Details page](./readmeImages/mobileDetails.png)
 
-### `npm run build`
+## Install dependencies
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+Before starting application be sure that you install all dependencies
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+```bash
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+npm i
 
-### `npm run eject`
+```
 
-**Note: this is a one-way operation. Once you `eject`, you can’t go back!**
+## Run application
 
-If you aren’t satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+To start the app run the command below:
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you’re on your own.
+```bash
 
-You don’t have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn’t feel obligated to use this feature. However we understand that this tool wouldn’t be useful if you couldn’t customize it when you are ready for it.
+npm start
 
-## Learn More
+```
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+The app will run on the http://localhost:3000
 
-To learn React, check out the [React documentation](https://reactjs.org/).
+If any issues please contact owner of the repository.
